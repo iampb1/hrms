@@ -10,6 +10,7 @@ public class TC_001_LoginLogout {
 		g.login();
 		g.logOut();
 		g.CloseBroser();
+		System.out.println("hello git");
 	}
 		catch(Exception e){
 			System.out.println(e);
