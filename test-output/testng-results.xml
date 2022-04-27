@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Application Opened]]>
+    </line>
+    <line>
+      <![CDATA[logged in]]>
+    </line>
+    <line>
+      <![CDATA[logged out]]>
+    </line>
+    <line>
+      <![CDATA[logged in]]>
+    </line>
+    <line>
+      <![CDATA[switched into frame]]>
+    </line>
+    <line>
+      <![CDATA[Employee added]]>
+    </line>
+    <line>
+      <![CDATA[exited from frame]]>
+    </line>
+    <line>
+      <![CDATA[logged out]]>
+    </line>
+    <line>
+      <![CDATA[AddEmployee test is successfull]]>
+    </line>
+    <line>
+      <![CDATA[Application closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-04-26T17:29:57 IST" name="Suite1" finished-at="2022-04-26T17:30:07 IST" duration-ms="10112">
+    <groups>
+    </groups>
+    <test started-at="2022-04-26T17:29:57 IST" name="Nopackage" finished-at="2022-04-26T17:30:07 IST" duration-ms="10112">
+      <class name="com.hrms.TNGscript.Test_hrmsTest">
+        <test-method is-config="true" signature="LaunchUrl()[pri:0, instance:com.hrms.TNGscript.Test_hrmsTest@593aaf41]" started-at="2022-04-26T17:29:57 IST" name="LaunchUrl" finished-at="2022-04-26T17:30:00 IST" duration-ms="2758" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchUrl -->
+        <test-method signature="LoginLogout()[pri:0, instance:com.hrms.TNGscript.Test_hrmsTest@593aaf41]" started-at="2022-04-26T17:30:00 IST" name="LoginLogout" finished-at="2022-04-26T17:30:03 IST" duration-ms="3336" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logged in]]>
+            </line>
+            <line>
+              <![CDATA[logged out]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginLogout -->
+        <test-method signature="AddEmployee()[pri:1, instance:com.hrms.TNGscript.Test_hrmsTest@593aaf41]" started-at="2022-04-26T17:30:03 IST" name="AddEmployee" finished-at="2022-04-26T17:30:07 IST" duration-ms="3908" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logged in]]>
+            </line>
+            <line>
+              <![CDATA[switched into frame]]>
+            </line>
+            <line>
+              <![CDATA[Employee added]]>
+            </line>
+            <line>
+              <![CDATA[exited from frame]]>
+            </line>
+            <line>
+              <![CDATA[logged out]]>
+            </line>
+            <line>
+              <![CDATA[AddEmployee test is successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddEmployee -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.hrms.TNGscript.Test_hrmsTest@593aaf41]" started-at="2022-04-26T17:30:07 IST" name="TearDown" finished-at="2022-04-26T17:30:07 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.hrms.TNGscript.Test_hrmsTest -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- Suite1 -->
+</testng-results>

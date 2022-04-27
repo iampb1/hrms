@@ -1,0 +1,8 @@
+set projectLocation=C:\Users\prash\eclipse-workspace\HRMS
+cd %projectLocation%
+set classpath=%projectLocation%\bin;%projectLocation%\lib\*
+java org.testng.TestNG %projectLocation%\testng.xml
+
+
+set classpath=C:\Users\prash\eclipse-workspace\HRMS\bin;C:\Users\prash\eclipse-workspace\HRMS\lib\*
+java org.testng.TestNG C:\Users\prash\eclipse-workspace\HRMS\testng.xml
